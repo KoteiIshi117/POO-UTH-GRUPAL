@@ -22,7 +22,15 @@ public class Deportista extends Persona {
     public String getDeporte() {
         return deporte;
     }
-    
+     public void setDeporte(String deporte) {
+        this.deporte = deporte;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", deporte='" + deporte + '\'' + '}';
+    }
+}
     
     
     
