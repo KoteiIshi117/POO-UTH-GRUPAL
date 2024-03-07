@@ -9,4 +9,24 @@ public class Deportista extends Persona {
         super(nombre, apellido, edad);
         this.deporte = deporte;
     }
+    @Override
+    public String getProfesion() {
+        return "Deportista";
+    }
+
+    @Override
+    public void setProfesion(String profesion) {
+        // No se implementa, ya que la profesión es fija para un Deportista
+    }
+
+    public String getDeporte() {
+        return deporte;
+    }
+    
+    
+    
+    
+    
+    
+    
 }
